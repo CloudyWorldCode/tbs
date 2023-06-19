@@ -10,8 +10,6 @@ describe('My First Test', () => {
 
     //  Verify that the value has been updated
     cy.get('.action-email').should('have.value', 'fake@email.com')
-
-        
   })
 
 })
